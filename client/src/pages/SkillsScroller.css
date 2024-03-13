@@ -1,0 +1,40 @@
+.skills-scroller-container {
+    margin-top: 0px;
+  }
+  
+  .skills-heading {
+    font-size: 50px;
+    margin-bottom: 10px;
+  }
+  
+  .skills-scroller {
+    display: flex;
+    flex-direction: column;
+    max-width: 1000px; /* Adjust as needed */
+  }
+  
+  .skill-item {
+    margin-bottom: 50px;
+  }
+  
+  .skill-name {
+    /* font-weight: bold; */
+    font-size: 30px ;
+  }
+  
+  .skill-bar {
+    height: 30px;
+    background-color: #e0e0e0;
+    /* border-radius: 15px; */
+    overflow: hidden;
+  }
+  
+  .skill-progress {
+    height: 100%;
+    background-color: black;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  

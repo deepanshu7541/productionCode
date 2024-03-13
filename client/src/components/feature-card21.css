@@ -1,0 +1,55 @@
+.feature-card21-feature-card {
+    width: 100%;
+    display: flex;
+    padding: var(--dl-space-space-unit);
+    position: relative;
+    align-items: flex-start;
+    flex-direction: row;
+    justify-content: flex-start;
+    background-color: #F6EBF5
+
+    ;
+  }
+  .feature-card21-feature-card:hover{
+    transform: scale(1.05);
+    transition: transform 0.3s ease;
+  }
+  .feature-card21-icon {
+    fill: var(--dl-color-gray-500);
+    width: 2rem;
+    height: 2rem;
+    flex-shrink: 0;
+    margin-right: var(--dl-space-space-oneandhalfunits);
+  }
+  .feature-card21-container {
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    justify-content: flex-start;
+  }
+  .feature-card21-text {
+    font-weight: 600;
+    margin-bottom: var(--dl-space-space-unit);
+  }
+  
+  
+  
+  
+  @media(max-width: 767px) {
+    .feature-card21-feature-card {
+      flex-direction: row;
+    }
+    .feature-card21-container {
+      flex-direction: column;
+    }
+  }
+  @media(max-width: 479px) {
+    .feature-card21-container {
+      flex-direction: column;
+    }
+  }
+  .project-github-logo{
+    margin-top: 5%;
+    height: 2rem;
+    width: 2rem;
+  }
