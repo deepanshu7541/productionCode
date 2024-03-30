@@ -71,7 +71,7 @@ const Home = (props) => {
     const dd = [];
     const aa = [];
     const certi = profileData.cid;
-    // console.log("Certificates:");
+    console.log("Certificates:");
     // console.log(certi);
 
     for (let i = 0; i < certi.length; i++) {
@@ -113,7 +113,12 @@ const Home = (props) => {
 
   useEffect(() => {
     fetchCertificate();
-  }, []);
+  });
+
+  // useEffect(() => {       If the consoling of the certificates goes in an infinte loop then acitvate this.
+  //   fetchCertificate();
+  // }, []);
+
 
     // const { theme } = useContext(ThemeContext);
 
